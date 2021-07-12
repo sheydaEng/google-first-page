@@ -1,0 +1,249 @@
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica.ttf');
+  font-family: 'Roboto';
+  src:url('/fonts/Roboto-Medium.ttf');
+  font-family: 'Arial';
+  src:url(/fonts/arial.ttf)
+}
+body{
+  color: #fff;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+#header{
+  padding-top: 11px;
+  flex-flow: row-reverse;
+  display: flex;
+
+}
+
+#signIn-btn{
+  background: #1a73e8;
+  border-radius: 5;
+  color: white;
+  border: 1px solid transparent;
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  margin-right: 13px;
+  min-width: 88px;
+  padding: 7px 22px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+#shapeBoxRight{
+  width: 22px;
+  height: 22px;
+  float: right;
+  color: #5f6368;
+  opacity: 55%;
+  padding: 4px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.link-image {
+  font: 12px Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right:23px ;
+  margin-left: 5px;
+  line-height: 24px;
+  color: rgba(0,0,0,.87);
+  float: right;
+  padding-top: 5px;
+}
+.link-gmail{
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: none;
+  margin-right:6px ;
+  margin-left:auto;
+  line-height: 24px;
+  color: rgba(0,0,0,.87);
+  float: right;
+  padding-top: 5px;
+}
+
+.container{
+  display: flex;
+ 
+}
+
+.btn
+{
+
+  border: 1px solid #3c40;
+  color: #3c4043;
+  border-radius: 4px;
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 25px;
+  line-height: 27px;
+  height: 33px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.btn-lucky{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+.btn-search{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+
+  /* margin-right: 1%;
+    margin-left: 39%; */
+
+}
+
+
+#google-image{
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    height: 83px;
+    display: block;
+    padding-bottom: 28px;
+    padding-top: 30px;
+   
+}
+.input-wrapper{
+  width: 38%;
+  margin: auto;
+  display: flex;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  height: 41px;
+ 
+}
+.icon-search {
+  width: 15px;
+  height: 15px;
+  display: block;
+  position: relative;
+  margin-top: 0.2em;
+  padding: 11px 15px;
+  opacity: 50%;
+  cursor: auto;
+}
+.icon-voicesearch{
+  width: 21px;
+  height: 23px;
+  display: block;
+  position: relative;
+  padding: 9px 13px;
+  cursor: pointer;
+}
+
+
+.google-input{
+  padding: 10px;
+  font-size: 16px;
+  background: transparent;
+  width: 95%;
+  outline: none;
+  border: none;
+}
+
+
+#google-search{
+  border-radius: 15px;
+  border-color: black;
+  border-width: 11px;
+
+}
+
+.foot{
+  display: flex;
+    background-color: #f2f2f2;
+    font-family:Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    width: 100%;
+    position: absolute;
+    overflow-x: hidden;
+    color: #70757a;
+    height: 40px;
+    bottom: 0;
+    justify-content: space-between;
+}
+.footerLeft{
+display: flex;
+justify-content: space-between;
+margin-left:13px;
+
+}
+.footerRight{
+
+      display: flex;
+justify-content: space-between;
+margin-right:13px;
+      
+  }
+
+a{
+  text-decoration: none;
+  font-family:Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  color: #70757a;
+  font-size: 13px;
+}
+.link{
+  text-decoration: none;
+  padding-top: 10px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    padding-left: 11px;
+  margin-top: 3px;
+}
+
+#btn-wrapper{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 18px;
+  justify-content: center;
+}
+
+#link-about{
+margin-left: 6px;
+}
+#link-settings{
+margin-right: 6px;
+}
+a:hover{
+  text-decoration:underline;
+}
+
+.input-wrapper:hover{
+  box-shadow: 1px 1px 4px 1.5px rgb(0 0 0 / 10%);
+}
+.btn:hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+#signIn-btn:hover{
+box-shadow:0.25px 0.25px 2px 0.5px #8ab8f5;
+background: #3383eb;
+}
+
+#shapeBoxRight:hover{
+  background-color: #babec2 ;
+  border-radius: 50%;
+}
