@@ -45,14 +45,14 @@ body{
   float: right;
   color: #5f6368;
   opacity: 55%;
-  padding: 4px;
+  padding: 6px;
   margin-right: 13px;
   cursor: pointer;
 }
 
 .link-image {
   font: 12px Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
   margin-right:23px ;
   margin-left: 5px;
@@ -63,7 +63,7 @@ body{
 }
 .link-gmail{
   font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 12px;
   text-decoration: none;
   margin-right:6px ;
@@ -132,8 +132,8 @@ body{
  
 }
 .icon-search {
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
   display: block;
   position: relative;
   margin-top: 0.2em;
@@ -172,6 +172,7 @@ body{
   display: flex;
     background-color: #f2f2f2;
     font-family:Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 400;
     font-size: 13px;
     width: 100%;
     position: absolute;
@@ -198,6 +199,7 @@ margin-right:13px;
 a{
   text-decoration: none;
   font-family:Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-weight: 400;
   color: #70757a;
   font-size: 13px;
 }
@@ -232,7 +234,7 @@ a:hover{
   box-shadow: 1px 1px 4px 1.5px rgba(0,0,0,0.1);
 }
 .btn:hover{
-  box-shadow: 0 1px 1px rgbrgba(0,0,0,0.1);
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.1);
   background-color: #f8f9fa;
   border: 1px solid #dadce0;
   color: #202124;
@@ -244,6 +246,6 @@ background: #3383eb;
 }
 
 #shapeBoxRight:hover{
-  background-color: #babec2 ;
+  background-color: #dadcdd ;
   border-radius: 50%;
 }
