@@ -87,12 +87,11 @@ body{
   color: #3c4043;
   border-radius: 4px;
   font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 13px;
   text-align: center;
-  margin-top: 25px;
-  line-height: 27px;
-  height: 33px;
+  margin-top: 23px;
+  height: 35px;
   width: 120px;
   cursor: pointer;
 }
@@ -179,7 +178,7 @@ body{
     position: absolute;
     overflow-x: hidden;
     color: #70757a;
-    height: 40px;
+    height: 43px;
     bottom: 0;
     justify-content: space-between;
 }
