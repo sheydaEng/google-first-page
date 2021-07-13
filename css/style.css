@@ -32,21 +32,22 @@ body{
   line-height: 16px;
   margin-right: 13px;
   min-width: 88px;
-  padding: 7px 22px;
   text-align: center;
   border-radius: 4px;
   cursor: pointer;
+  height: 33px;
 }
 
 
 #shapeBoxRight{
+  margin-top: -3px;
   width: 22px;
   height: 22px;
   float: right;
   color: #5f6368;
   opacity: 55%;
-  padding: 6px;
-  margin-right: 13px;
+  padding: 8px;
+  margin-right: 12px;
   cursor: pointer;
 }
 
@@ -54,12 +55,12 @@ body{
   font: 12px Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
   font-weight: 400;
   text-decoration: none;
-  margin-right:23px ;
-  margin-left: 5px;
+  margin-right: 16px;
+  margin-left: 10px;
   line-height: 24px;
   color: rgba(0,0,0,.87);
   float: right;
-  padding-top: 5px;
+  padding-top: 4px;
 }
 .link-gmail{
   font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
@@ -71,7 +72,7 @@ body{
   line-height: 24px;
   color: rgba(0,0,0,.87);
   float: right;
-  padding-top: 5px;
+  padding-top: 4px;
 }
 
 .container{
@@ -246,6 +247,6 @@ background: #3383eb;
 }
 
 #shapeBoxRight:hover{
-  background-color: #dadcdd ;
+  background-color: #e7e7e7 ;
   border-radius: 50%;
 }
